@@ -3,19 +3,19 @@
   <entry>
     <title>hello</title>
     <url>/2019/11/22/hello/</url>
-    <content><![CDATA[<h1 id="c-socket-practise"><a href="#c-socket-practise" class="headerlink" title="c_socket_practise"></a>c_socket_practise</h1><p>学习TCP/IP网络编程代码</p>
-<h2 id="TCP套接字"><a href="#TCP套接字" class="headerlink" title="TCP套接字"></a>TCP套接字</h2><h2 id="UDP套接字"><a href="#UDP套接字" class="headerlink" title="UDP套接字"></a>UDP套接字</h2><ul>
+    <content><![CDATA[<h1 id="c-socket-practise"><a href="#c-socket-practise" class="headerlink" title="c_socket_practise"></a>c_socket_practise</h1><p>学习TCP/IP网络编程代码</p><h2 id="TCP套接字"><a href="#TCP套接字" class="headerlink" title="TCP套接字"></a>TCP套接字</h2><h2 id="UDP套接字"><a href="#UDP套接字" class="headerlink" title="UDP套接字"></a>UDP套接字</h2><ul>
 <li>已连接UDP套接字（connected） 调用connect（）,注册目标地址信息</li>
 <li>未连接UDP套接字（unconnected） 未注册目标地址信息</li>
-</ul>
-<h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><ul>
+</ul><h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><ul>
 <li>O_CREAT 必要时创建文件</li>
 <li>O_TRUNC 删除全部现有数据</li>
 <li>O_APPEND 维持现有数据，保存到其后面</li>
 <li>O_RDONLY 只读打开</li>
 <li>O_WRONLY 只写打开</li>
 <li>O_RDWR 读写打开</li>
-</ul>
+</ul><a id="more"></a>
+
+
 <h2 id="断开套接字连接"><a href="#断开套接字连接" class="headerlink" title="断开套接字连接"></a>断开套接字连接</h2><ul>
 <li>断开一部分连接指可以传输数据但是无法接收数据，或可以接收数据但无法传输数据</li>
 <li>两台主机通过套接字建立连接后进入可交换状态，又称“流形成的状态”</li>
@@ -82,19 +82,19 @@
   <entry>
     <title>hello-world</title>
     <url>/2019/11/22/hello-world/</url>
-    <content><![CDATA[<h1 id="c-socket-practise"><a href="#c-socket-practise" class="headerlink" title="c_socket_practise"></a>c_socket_practise</h1><p>学习TCP/IP网络编程代码</p>
-<h2 id="TCP套接字"><a href="#TCP套接字" class="headerlink" title="TCP套接字"></a>TCP套接字</h2><h2 id="UDP套接字"><a href="#UDP套接字" class="headerlink" title="UDP套接字"></a>UDP套接字</h2><ul>
+    <content><![CDATA[<h1 id="c-socket-practise"><a href="#c-socket-practise" class="headerlink" title="c_socket_practise"></a>c_socket_practise</h1><p>学习TCP/IP网络编程代码</p><h2 id="TCP套接字"><a href="#TCP套接字" class="headerlink" title="TCP套接字"></a>TCP套接字</h2><h2 id="UDP套接字"><a href="#UDP套接字" class="headerlink" title="UDP套接字"></a>UDP套接字</h2><ul>
 <li>已连接UDP套接字（connected） 调用connect（）,注册目标地址信息</li>
 <li>未连接UDP套接字（unconnected） 未注册目标地址信息</li>
-</ul>
-<h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><ul>
+</ul><h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><ul>
 <li>O_CREAT 必要时创建文件</li>
 <li>O_TRUNC 删除全部现有数据</li>
 <li>O_APPEND 维持现有数据，保存到其后面</li>
 <li>O_RDONLY 只读打开</li>
 <li>O_WRONLY 只写打开</li>
 <li>O_RDWR 读写打开</li>
-</ul>
+</ul><a id="more"></a>
+
+
 <h2 id="断开套接字连接"><a href="#断开套接字连接" class="headerlink" title="断开套接字连接"></a>断开套接字连接</h2><ul>
 <li>断开一部分连接指可以传输数据但是无法接收数据，或可以接收数据但无法传输数据</li>
 <li>两台主机通过套接字建立连接后进入可交换状态，又称“流形成的状态”</li>

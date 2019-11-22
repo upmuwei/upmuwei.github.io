@@ -25,13 +25,17 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot; title=&quot;c_socket_practise&quot;&gt;&lt;/a&gt;c_socket_practise&lt;/h1&gt;&lt;p&gt;学习TCP/IP网络编程代码&lt;/p&gt;&lt;h2 id=&quot;TCP套接字&quot;&gt;&lt;a href=&quot;#TCP套接字&quot; class=&quot;headerlink&quot; title=&quot;TCP套接字&quot;&gt;&lt;/a&gt;TCP套接字&lt;/h2&gt;&lt;h2 id=&quot;UDP套接字&quot;&gt;&lt;a href=&quot;#UDP套接字&quot; class=&quot;headerlink&quot; title=&quot;UDP套接字&quot;&gt;&lt;/a&gt;UDP套接字&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;已连接UDP套接字（connected） 调用connect（）,注册目标地址信息&lt;/li&gt;
+&lt;li&gt;未连接UDP套接字（unconnected） 未注册目标地址信息&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 id=&quot;文件&quot;&gt;&lt;a href=&quot;#文件&quot; class=&quot;headerlink&quot; title=&quot;文件&quot;&gt;&lt;/a&gt;文件&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;O_CREAT 必要时创建文件&lt;/li&gt;
+&lt;li&gt;O_TRUNC 删除全部现有数据&lt;/li&gt;
+&lt;li&gt;O_APPEND 维持现有数据，保存到其后面&lt;/li&gt;
+&lt;li&gt;O_RDONLY 只读打开&lt;/li&gt;
+&lt;li&gt;O_WRONLY 只写打开&lt;/li&gt;
+&lt;li&gt;O_RDWR 读写打开&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -48,13 +52,17 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot;
-        
-      
+      &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot; title=&quot;c_socket_practise&quot;&gt;&lt;/a&gt;c_socket_practise&lt;/h1&gt;&lt;p&gt;学习TCP/IP网络编程代码&lt;/p&gt;&lt;h2 id=&quot;TCP套接字&quot;&gt;&lt;a href=&quot;#TCP套接字&quot; class=&quot;headerlink&quot; title=&quot;TCP套接字&quot;&gt;&lt;/a&gt;TCP套接字&lt;/h2&gt;&lt;h2 id=&quot;UDP套接字&quot;&gt;&lt;a href=&quot;#UDP套接字&quot; class=&quot;headerlink&quot; title=&quot;UDP套接字&quot;&gt;&lt;/a&gt;UDP套接字&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;已连接UDP套接字（connected） 调用connect（）,注册目标地址信息&lt;/li&gt;
+&lt;li&gt;未连接UDP套接字（unconnected） 未注册目标地址信息&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 id=&quot;文件&quot;&gt;&lt;a href=&quot;#文件&quot; class=&quot;headerlink&quot; title=&quot;文件&quot;&gt;&lt;/a&gt;文件&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;O_CREAT 必要时创建文件&lt;/li&gt;
+&lt;li&gt;O_TRUNC 删除全部现有数据&lt;/li&gt;
+&lt;li&gt;O_APPEND 维持现有数据，保存到其后面&lt;/li&gt;
+&lt;li&gt;O_RDONLY 只读打开&lt;/li&gt;
+&lt;li&gt;O_WRONLY 只写打开&lt;/li&gt;
+&lt;li&gt;O_RDWR 读写打开&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
