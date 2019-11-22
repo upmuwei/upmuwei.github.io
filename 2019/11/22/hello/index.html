@@ -190,6 +190,16 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
@@ -334,6 +344,11 @@
           
           
 
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
           
 
           
@@ -525,8 +540,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="muwei" />
+            
               <p class="site-author-name" itemprop="name">muwei</p>
-              <p class="site-description motion-element" itemprop="description">君子终日乾乾，夕惕若厉，无咎</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -558,6 +577,22 @@
           
 
           
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/upmuwei" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:lingjunmu@foxmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
 
           
           
@@ -580,7 +615,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#c-socket-practise"><span class="nav-number">1.</span> <span class="nav-text">c_socket_practise</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP套接字"><span class="nav-number">1.1.</span> <span class="nav-text">TCP套接字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#UDP套接字"><span class="nav-number">1.2.</span> <span class="nav-text">UDP套接字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文件"><span class="nav-number">1.3.</span> <span class="nav-text">文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#断开套接字连接"><span class="nav-number">1.4.</span> <span class="nav-text">断开套接字连接</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#shutdown（）参数（断开方式）"><span class="nav-number">1.4.1.</span> <span class="nav-text">shutdown（）参数（断开方式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Linux"><span class="nav-number">1.4.1.1.</span> <span class="nav-text">1.Linux</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Windows"><span class="nav-number">1.4.1.2.</span> <span class="nav-text">2.Windows</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取IP地址"><span class="nav-number">1.5.</span> <span class="nav-text">获取IP地址</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#利用域名获取IP地址"><span class="nav-number">1.5.1.</span> <span class="nav-text">利用域名获取IP地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#利用IP地址获取域名"><span class="nav-number">1.5.2.</span> <span class="nav-text">利用IP地址获取域名</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#销毁僵尸进程"><span class="nav-number">1.6.</span> <span class="nav-text">销毁僵尸进程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#wait函数销毁僵尸进程"><span class="nav-number">1.6.1.</span> <span class="nav-text">wait函数销毁僵尸进程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#waitpid函数销毁僵尸进程"><span class="nav-number">1.6.2.</span> <span class="nav-text">waitpid函数销毁僵尸进程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#信号（signal-处理机制"><span class="nav-number">1.6.3.</span> <span class="nav-text">信号（signal)处理机制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sigaction函数处理信号"><span class="nav-number">1.6.4.</span> <span class="nav-text">sigaction函数处理信号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#并发服务"><span class="nav-number">1.6.5.</span> <span class="nav-text">并发服务</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进程间通信"><span class="nav-number">1.7.</span> <span class="nav-text">进程间通信</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#I-O复用-select函数使用"><span class="nav-number">1.8.</span> <span class="nav-text">I/O复用 select函数使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#发送紧急消息-带外数据"><span class="nav-number">1.9.</span> <span class="nav-text">发送紧急消息(带外数据)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#检查输入缓冲"><span class="nav-number">1.9.1.</span> <span class="nav-text">检查输入缓冲</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#readv-amp-writev函数"><span class="nav-number">1.9.2.</span> <span class="nav-text">readv &amp; writev函数</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#c-socket-practise"><span class="nav-text">c_socket_practise</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#TCP套接字"><span class="nav-text">TCP套接字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#UDP套接字"><span class="nav-text">UDP套接字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文件"><span class="nav-text">文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#断开套接字连接"><span class="nav-text">断开套接字连接</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#shutdown（）参数（断开方式）"><span class="nav-text">shutdown（）参数（断开方式）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-Linux"><span class="nav-text">1.Linux</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-Windows"><span class="nav-text">2.Windows</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取IP地址"><span class="nav-text">获取IP地址</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#利用域名获取IP地址"><span class="nav-text">利用域名获取IP地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#利用IP地址获取域名"><span class="nav-text">利用IP地址获取域名</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#销毁僵尸进程"><span class="nav-text">销毁僵尸进程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#wait函数销毁僵尸进程"><span class="nav-text">wait函数销毁僵尸进程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#waitpid函数销毁僵尸进程"><span class="nav-text">waitpid函数销毁僵尸进程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#信号（signal-处理机制"><span class="nav-text">信号（signal)处理机制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sigaction函数处理信号"><span class="nav-text">sigaction函数处理信号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#并发服务"><span class="nav-text">并发服务</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进程间通信"><span class="nav-text">进程间通信</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#I-O复用-select函数使用"><span class="nav-text">I/O复用 select函数使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#发送紧急消息-带外数据"><span class="nav-text">发送紧急消息(带外数据)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#检查输入缓冲"><span class="nav-text">检查输入缓冲</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#readv-amp-writev函数"><span class="nav-text">readv &amp; writev函数</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
@@ -610,20 +645,34 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 
