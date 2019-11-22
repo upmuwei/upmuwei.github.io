@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://upmuwei.github.io/"/>
-  <updated>2019-11-22T05:42:00.219Z</updated>
+  <updated>2019-11-22T08:47:17.397Z</updated>
   <id>https://upmuwei.github.io/</id>
   
   <author>
@@ -17,29 +17,50 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello</title>
-    <link href="https://upmuwei.github.io/2019/11/22/hello/"/>
-    <id>https://upmuwei.github.io/2019/11/22/hello/</id>
-    <published>2019-11-22T02:54:09.602Z</published>
-    <updated>2019-11-22T05:42:00.219Z</updated>
+    <title>Java详解</title>
+    <link href="https://upmuwei.github.io/2019/11/22/Java%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://upmuwei.github.io/2019/11/22/Java%E8%AF%A6%E8%A7%A3/</id>
+    <published>2019-11-22T08:43:15.000Z</published>
+    <updated>2019-11-22T08:47:17.397Z</updated>
     
     <summary type="html">
-    
-      &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot; title=&quot;c_socket_practise&quot;&gt;&lt;/a&gt;c_socket_practise&lt;/h1&gt;&lt;p&gt;学习TCP/IP网络编程代码&lt;/p&gt;&lt;h2 id=&quot;TCP套接字&quot;&gt;&lt;a href=&quot;#TCP套接字&quot; class=&quot;headerlink&quot; title=&quot;TCP套接字&quot;&gt;&lt;/a&gt;TCP套接字&lt;/h2&gt;&lt;h2 id=&quot;UDP套接字&quot;&gt;&lt;a href=&quot;#UDP套接字&quot; class=&quot;headerlink&quot; title=&quot;UDP套接字&quot;&gt;&lt;/a&gt;UDP套接字&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;已连接UDP套接字（connected） 调用connect（）,注册目标地址信息&lt;/li&gt;
-&lt;li&gt;未连接UDP套接字（unconnected） 未注册目标地址信息&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 id=&quot;文件&quot;&gt;&lt;a href=&quot;#文件&quot; class=&quot;headerlink&quot; title=&quot;文件&quot;&gt;&lt;/a&gt;文件&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;O_CREAT 必要时创建文件&lt;/li&gt;
-&lt;li&gt;O_TRUNC 删除全部现有数据&lt;/li&gt;
-&lt;li&gt;O_APPEND 维持现有数据，保存到其后面&lt;/li&gt;
-&lt;li&gt;O_RDONLY 只读打开&lt;/li&gt;
-&lt;li&gt;O_WRONLY 只写打开&lt;/li&gt;
-&lt;li&gt;O_RDWR 读写打开&lt;/li&gt;
-&lt;/ul&gt;
     
     </summary>
     
     
+      <category term="Java" scheme="https://upmuwei.github.io/categories/Java/"/>
+    
+    
+      <category term="Java编程" scheme="https://upmuwei.github.io/tags/Java%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言详解</title>
+    <link href="https://upmuwei.github.io/2019/11/22/C%E8%AF%AD%E8%A8%80%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://upmuwei.github.io/2019/11/22/C%E8%AF%AD%E8%A8%80%E8%AF%A6%E8%A7%A3/</id>
+    <published>2019-11-22T08:38:59.000Z</published>
+    <updated>2019-11-22T08:47:40.559Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;nice&lt;br&gt;nice&lt;br&gt;nice&lt;/p&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C" scheme="https://upmuwei.github.io/categories/C/"/>
+    
+    
+      <category term="网络编程" scheme="https://upmuwei.github.io/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="C语言" scheme="https://upmuwei.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
@@ -47,8 +68,8 @@
     <title>hello-world</title>
     <link href="https://upmuwei.github.io/2019/11/22/hello-world/"/>
     <id>https://upmuwei.github.io/2019/11/22/hello-world/</id>
-    <published>2019-11-22T02:08:40.923Z</published>
-    <updated>2019-11-22T05:42:05.436Z</updated>
+    <published>2019-11-22T08:38:59.000Z</published>
+    <updated>2019-11-22T08:47:34.745Z</updated>
     
     <summary type="html">
     
@@ -67,6 +88,41 @@
     </summary>
     
     
+      <category term="C" scheme="https://upmuwei.github.io/categories/C/"/>
+    
+    
+      <category term="C语言网络编程" scheme="https://upmuwei.github.io/tags/C%E8%AF%AD%E8%A8%80%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello</title>
+    <link href="https://upmuwei.github.io/2019/11/22/hello/"/>
+    <id>https://upmuwei.github.io/2019/11/22/hello/</id>
+    <published>2019-11-22T08:38:59.000Z</published>
+    <updated>2019-11-22T08:47:26.201Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot; title=&quot;c_socket_practise&quot;&gt;&lt;/a&gt;c_socket_practise&lt;/h1&gt;&lt;p&gt;学习TCP/IP网络编程代码&lt;/p&gt;&lt;h2 id=&quot;TCP套接字&quot;&gt;&lt;a href=&quot;#TCP套接字&quot; class=&quot;headerlink&quot; title=&quot;TCP套接字&quot;&gt;&lt;/a&gt;TCP套接字&lt;/h2&gt;&lt;h2 id=&quot;UDP套接字&quot;&gt;&lt;a href=&quot;#UDP套接字&quot; class=&quot;headerlink&quot; title=&quot;UDP套接字&quot;&gt;&lt;/a&gt;UDP套接字&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;已连接UDP套接字（connected） 调用connect（）,注册目标地址信息&lt;/li&gt;
+&lt;li&gt;未连接UDP套接字（unconnected） 未注册目标地址信息&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 id=&quot;文件&quot;&gt;&lt;a href=&quot;#文件&quot; class=&quot;headerlink&quot; title=&quot;文件&quot;&gt;&lt;/a&gt;文件&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;O_CREAT 必要时创建文件&lt;/li&gt;
+&lt;li&gt;O_TRUNC 删除全部现有数据&lt;/li&gt;
+&lt;li&gt;O_APPEND 维持现有数据，保存到其后面&lt;/li&gt;
+&lt;li&gt;O_RDONLY 只读打开&lt;/li&gt;
+&lt;li&gt;O_WRONLY 只写打开&lt;/li&gt;
+&lt;li&gt;O_RDWR 读写打开&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="C" scheme="https://upmuwei.github.io/categories/C/"/>
+    
+    
+      <category term="C语言网络编程" scheme="https://upmuwei.github.io/tags/C%E8%AF%AD%E8%A8%80%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
