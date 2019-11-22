@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-11-22T05:42:00.219Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>muwei</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="http://yoursite.com/2019/11/22/hello/"/>
+    <id>http://yoursite.com/2019/11/22/hello/</id>
+    <published>2019-11-22T02:54:09.602Z</published>
+    <updated>2019-11-22T05:42:00.219Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hello-world</title>
+    <link href="http://yoursite.com/2019/11/22/hello-world/"/>
+    <id>http://yoursite.com/2019/11/22/hello-world/</id>
+    <published>2019-11-22T02:08:40.923Z</published>
+    <updated>2019-11-22T05:42:05.436Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;c-socket-practise&quot;&gt;&lt;a href=&quot;#c-socket-practise&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
